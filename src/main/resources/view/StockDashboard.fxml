@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="StockManagementPage" prefHeight="526.0" prefWidth="886.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.hasindu.spiceshop.controller.StockManagementController">
+<AnchorPane fx:id="StockManagementPage" prefHeight="526.0" prefWidth="886.0" style="-fx-background-radius: 20;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.hasindu.spiceshop.controller.StockManagementController">
    <children>
       <Label layoutX="351.0" layoutY="14.0" text="Stock Management">
          <font>
