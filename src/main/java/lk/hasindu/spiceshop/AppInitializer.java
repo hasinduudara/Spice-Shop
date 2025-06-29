@@ -17,7 +17,7 @@ public class AppInitializer extends Application {
         stage.setTitle("Spice Shop");
 
         Scene scene = new Scene(new Group(load));
-//        stage.getIcons().add(new Image(getClass().getResourceAsStream("/images/software-icon.png")));
+        stage.getIcons().add(new Image(getClass().getResourceAsStream("/image/spice.png")));
         stage.setScene(scene);
         stage.show();
     }
