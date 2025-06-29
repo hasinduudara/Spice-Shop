@@ -5,4 +5,6 @@ module lk.hasindu.spiceshop {
 
     opens lk.hasindu.spiceshop to javafx.fxml;
     exports lk.hasindu.spiceshop;
+    opens lk.hasindu.spiceshop.controller to javafx.fxml;
+    exports lk.hasindu.spiceshop.controller;
 }
