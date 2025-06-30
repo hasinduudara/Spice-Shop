@@ -5,7 +5,7 @@
 <?import javafx.geometry.Insets?>
 
 <AnchorPane xmlns:fx="http://javafx.com/fxml"
-            fx:controller="controller.SalesController"
+            fx:controller="lk.hasindu.spiceshop.controller.SalesDashboardController"
             prefWidth="886.0" prefHeight="526.0"
             style="-fx-background-color: #f4f6f7;">
 
