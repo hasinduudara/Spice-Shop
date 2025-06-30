@@ -36,7 +36,6 @@ public class MainDashboardController implements Initializable {
 
     @FXML
     void btnSalesDashboardOnAction(ActionEvent event) {
-
     }
 
     @FXML

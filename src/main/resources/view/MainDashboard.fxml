@@ -7,7 +7,6 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane fx:id="mainDashboard" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.hasindu.spiceshop.controller.MainDashboardController">
    <children>
       <Pane prefHeight="58.0" prefWidth="900.0" style="-fx-background-color: #343434;">
@@ -19,12 +18,12 @@
             </Label>
             <HBox layoutX="404.0" layoutY="12.0" prefHeight="35.0" prefWidth="482.0" spacing="20.0">
                <children>
-                  <Button fx:id="btnSalesDashboard" mnemonicParsing="false" onAction="#btnSalesDashboardOnAction" prefHeight="35.0" prefWidth="120.0" text="Sales">
+                  <Button fx:id="btnSatockDashBoard" mnemonicParsing="false" onAction="#btnSatockDashBoardOnAction" prefHeight="35.0" prefWidth="200.0" text="Stock Management">
                      <font>
                         <Font name="System Bold" size="15.0" />
                      </font>
                   </Button>
-                  <Button fx:id="btnSatockDashBoard" mnemonicParsing="false" onAction="#btnSatockDashBoardOnAction" prefHeight="35.0" prefWidth="200.0" text="Stock Management">
+                  <Button fx:id="btnSalesDashboard" mnemonicParsing="false" onAction="#btnSalesDashboardOnAction" prefHeight="35.0" prefWidth="120.0" text="Sales">
                      <font>
                         <Font name="System Bold" size="15.0" />
                      </font>
